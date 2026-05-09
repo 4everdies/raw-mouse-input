@@ -4,8 +4,6 @@ A utility mod for Minecraft 1.8.9 (Forge) that enables true raw mouse input by b
 
 This modification replaces Minecraft’s default mouse handler with a low-level raw input implementation using JInput, providing more consistent and precise aim movement.
 
-<img width="1600" height="900" alt="raw input mod" src="https://github.com/user-attachments/assets/example-preview-image.png" />
-
 # Requirements
 
 * **Forge 1.8.9**
