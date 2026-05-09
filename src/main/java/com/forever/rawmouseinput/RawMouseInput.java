@@ -71,7 +71,7 @@ public class RawMouseInput {
         final AtomicInteger dx = new AtomicInteger(0);
         final AtomicInteger dy = new AtomicInteger(0);
         volatile boolean running = true;
-        volatile List<Mouse> mice = new ArrayList<>();
+        volatile List<Mouse> mice = new ArrayList<Mouse>();
 
         RawMouseThread() {
             setDaemon(true);
@@ -110,7 +110,7 @@ public class RawMouseInput {
                 Constructor<?> ctor = Class.forName(envClass).getDeclaredConstructor();
                 ctor.setAccessible(true);
                 ControllerEnvironment env = (ControllerEnvironment) ctor.newInstance();
-                List<Mouse> found = new ArrayList<>();
+                List<Mouse> found = new ArrayList<Mouse>();
                 for (Controller c : env.getControllers()) {
                     if (c instanceof Mouse) {
                         found.add((Mouse) c);
