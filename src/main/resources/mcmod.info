@@ -1,0 +1,16 @@
+[
+{
+  "modid": "rawmouseinput",
+  "name": "RawMouseInput",
+  "description": "mouse acceleration for raw input.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": [""],
+  "credits": "4everdies",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
